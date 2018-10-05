@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies":{
+  "jshint": "^2.6.0"
+  },
+  "scripts":{
+    "test":"jshint index.js"
+  },
   "keywords": [
     "elk",
     "elk",
